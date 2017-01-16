@@ -10,7 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
   moveit_msgs
   roscpp
   shape_msgs
-  shape_tools
+  geometric_shapes
   std_msgs
   object_msgs 
   eigen_conversions
