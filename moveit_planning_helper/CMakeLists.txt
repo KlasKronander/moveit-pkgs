@@ -14,7 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   tf
   trajectory_msgs
   convenience_ros_functions
-  shape_tools
+  geometric_shapes
 )
 
 ###################################
@@ -31,7 +31,7 @@ catkin_package(
   LIBRARIES moveit_planning_helper
   CATKIN_DEPENDS actionlib actionlib_msgs eigen_conversions 
         manipulation_msgs moveit_ros_planning_interface roscpp tf trajectory_msgs
-        convenience_ros_functions shape_tools
+        convenience_ros_functions geometric_shapes
 )
 
 ###########
